@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CodeHuntBL</string>
+    <string name="navigation_drawer_open">CodeHuntBL</string>
+    <string name="navigation_drawer_close">CodeHuntBL</string>
+    <string name="uloguj_se">ULOGUJ SE</string>
+    <string name="sign_up">Nemaš CodeHuntBL nalog? <br/><br/> REGISTRUJ SE</string>
+    <string name="vi_e_informacija">Više informacija</string>
+    <string name="kreiraj_nalog">Kreiraj CodeHuntBL nalog</string>
+    <string name="registruj_se">REGISTRUJ SE BESPLATNO</string>
+    <string name="vrati_se_na_prijavu">Vrati se na prijavu</string>
+    <string name="text">Odabirom \"Registruj se besplatno\" igraj</string>
+    <string name="codehunt">CodeHuntBL</string>
+    <string name="username">Username</string>
+    <string name="korisni_ko_ime">Korisničko ime:</string>
+    <string name="igraj">IGRAJ</string>
+    <string name="infoText1">Upoznajte Banja Luku uz CodeHuntBL! <br/><br/>
+    </string>
+    <string name="infoText2">Bilo da ste turista ili naš sugrađanin, posjetitie najpoznatije lokacije u Banjoj Luci,
+        naučite mnoge zanimljive istorijske cinjenice i učinite svoj boravak ljepšim u gradu na Vrbasu.</string>
+    <string name="infoText3">Studenti Elektrotehničkog fakulteta omogućili su Vam da kroz obilazak grada naučite
+        mnoge zanimljive pojedinosti o gradu i na taj način svoj boravak u Banjoj Luci učinite nezaboravnim.</string>
+    <string name="settings">Podešavanja</string>
+    <string name="ranking">Rangiranje</string>
+    <string name="profile">Profil</string>
+    <string name="usernamee">Korisničko ime</string>
+    <string name="language">Jezik</string>
+    <string name="selected_lang">Izabrani jezik</string>
+    <string name="email_address">Email adresa</string>
+    <string name="description_1">Vaše korisničko ime se sada ne prikazuje na rang listi</string>
+    <string name="description_2">Vaše korisničko ime se sada prikazuje na rang listi</string>
+    <string name="allow_ranking">Dozvoli rangiranje</string>
+    <string name="pocetna">Početna</string>
+    <string name="rang_lista">Rang lista</string>
+    <string name="mapa_pitanja">Mapa pitanja</string>
+    <string name="rijesena_pitanja">Riješena pitanja</string>
+    <string name="prijavi_gresku">Prijavi grešku</string>
+    <string name="podesavanja">Podešavanja</string>
+    <string name="provjeri_odgovor">Provjeri odgovor</string>
+    <string name="uputstvo">Uputstvo za igru</string>
+    <string name="o_nama">O nama</string>
+    <string name="odjavi_se">Odjavi se</string>
+    <string name="error_template">Unesite opis greške koja je nastala...</string>
+    <string name="error_handling_title">Prijavi grešku</string>
+    <string name="error_handling_button_text">Prijavi</string>
+    <string name="tekst_pitanja">Tekst pitanja...</string>
+    <string name="odgovor">Odgovor</string>
+    <string name="instructions">Procitajte uputstvo i krenite u potragu za QR kodom na trazenoj lokaciji.
+Nakon sto ste pronasli QR kod, skenirajte ga i pokazite svoje znanje o gradu Banjaluka.
+Za vas smo spremili i dvije pomoci, koje ce vas asocirati na odgovor, ali koje ce vam oduzeti bodove u slucaju koristenja.
+Ponavljajte navedene korake, upoznajte Banja Luku i takmicite se sa svojim sugradjanima i turistima naseg grada.
+Srecno!!!</string>
+</resources>

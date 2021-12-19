@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:background="#a9e2f5">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="414dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="153dp"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097"
+        app:srcCompat="@drawable/nova_slika" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="308dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="247dp"
+        android:background="@drawable/button_style"
+        android:singleLine="true"
+        android:soundEffectsEnabled="true"
+        android:text="@string/uloguj_se"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/convergence"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73"
+        app:shapeAppearance="@style/TextAppearance.AppCompat.Widget.Button" />
+
+    <EditText
+        android:id="@+id/signUpButton"
+        android:layout_width="292dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="161dp"
+        android:clickable="true"
+        android:editable="false"
+        android:focusable="true"
+        android:fontFamily="@font/convergence"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <EditText
+        android:id="@+id/moreInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/zxing_transparent"
+        android:clickable="true"
+        android:editable="false"
+        android:focusable="true"
+        android:fontFamily="@font/capriola"
+        android:text="@string/vi_e_informacija"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpButton"
+        app:layout_constraintVertical_bias="0.71" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

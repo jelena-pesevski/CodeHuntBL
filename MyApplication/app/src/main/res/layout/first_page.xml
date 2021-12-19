@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a9e2f5"
+    android:fitsSystemWindows="true"
+    tools:context=".FirstPage">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#a9e2f5"
+        app:headerLayout="@layout/header"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="#000000"
+        app:menu="@menu/main_menu" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a9e2f5">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="395dp"
+            android:layout_height="380dp"
+            android:layout_marginBottom="55dp"
+            app:layout_constraintBottom_toTopOf="@+id/playBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.432"
+            app:srcCompat="@drawable/nova_slika" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="#a9e2f5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/ic_baseline_menu_24" />
+
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:layout_width="358dp"
+            android:layout_height="119dp"
+            android:layout_marginBottom="168dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/border"
+            android:contentDescription="TODO"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+           />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

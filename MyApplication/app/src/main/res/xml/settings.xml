@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:ignore="NamespaceTypo">
+
+    <PreferenceCategory app:title="" />
+
+    <PreferenceCategory
+        app:title="@string/settings"
+        app:layout="@layout/text_style"/>
+
+    <PreferenceCategory app:title="" />
+
+    <PreferenceCategory app:title="@string/ranking"
+        app:layout="@layout/text_style_mini">
+
+        <SwitchPreference
+            app:textColor="@color/black"
+            app:id="@+id/switchRanking"
+            app:key="ranking"
+            app:summaryOff="@string/description_1"
+            app:summaryOn="@string/description_2"
+            app:title="@string/allow_ranking"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="" />
+
+    <PreferenceCategory app:title="@string/profile"
+        app:layout="@layout/text_style_mini">
+
+        <EditTextPreference
+            app:key="username"
+            app:textColor="@color/black"
+            app:title="@string/usernamee" />
+        <Preference
+            app:key="email"
+            app:title="@string/email_address" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="" />
+
+
+    <PreferenceCategory app:title="@string/language"
+        app:layout="@layout/text_style_mini"/>
+        <ListPreference
+            app:key="language"
+            app:entryValues="@array/lang_values"
+            app:title="@string/selected_lang"
+            />/>/>
+</PreferenceScreen>

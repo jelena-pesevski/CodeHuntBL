@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CodeHuntBL</string>
+    <string name="navigation_drawer_open">CodeHuntBL</string>
+    <string name="navigation_drawer_close">CodeHuntBL</string>
+    <string name="uloguj_se">LOGIN</string>
+    <string name="sign_up">Don\'t have a CodeHuntBL account? <br/><br/> REGISTER NOW</string>
+    <string name="vi_e_informacija">More informations</string>
+    <string name="kreiraj_nalog">Create CodeHuntBL account</string>
+    <string name="registruj_se">REGISTER FOR FREE</string>
+    <string name="vrati_se_na_prijavu">Back to the login</string>
+    <string name="text">Select \"Register for free\" and start</string>
+    <string name="codehunt">CodeHuntBL</string>
+    <string name="username">Username</string>
+    <string name="korisni_ko_ime">Username:</string>
+    <string name="igraj">PLAY</string>
+    <string name="infoText1">Get to know Banja Luka with CodeHuntBL! <br/><br/>
+    </string>
+    <string name="infoText2">It doesn\'t matter if you are a tourist or a citizen od Banja Luka, you\'ll get to visit
+        the famous location, learn many interesting historical facts and make your stay better in a city on the river Vrbas.</string>
+    <string name="infoText3">Students of Electrical Engeenering in Banja Luka have made possible for you to learn a lot of interesting
+    things while touring the city which will make your stay in our city unforgettable. Find QR codes, answer the questions
+    and learn the particulars that make our city great.</string>
+    <string name="settings">Settings</string>
+    <string name="ranking">Rankings</string>
+    <string name="profile">Profile</string>
+    <string name="usernamee">Username</string>
+    <string name="language">Language</string>
+    <string name="selected_lang">Select language</string>
+    <string name="email_address">E-mail address</string>
+    <string name="description_1">Your username is now displayed on the rank list</string>
+    <string name="description_2">Your username is not now displayed on the rank list</string>
+    <string name="allow_ranking">Allow rankings</string>
+    <string name="pocetna">Home</string>
+    <string name="rang_lista">Rankings</string>
+    <string name="mapa_pitanja">Question map</string>
+    <string name="rijesena_pitanja">Solved questions</string>
+    <string name="prijavi_gresku">Report error</string>
+    <string name="podesavanja">Settings</string>
+    <string name="provjeri_odgovor">Check answer</string>
+    <string name="uputstvo">How to play</string>
+    <string name="o_nama">About us</string>
+    <string name="odjavi_se">Logout</string>
+    <string name="error_template">Describe the error...</string>
+    <string name="error_handling_title">Submit error</string>
+    <string name="error_handling_button_text">Submit</string>
+    <string name="tekst_pitanja">Question...</string>
+    <string name="odgovor">Answer</string>
+    <string name="instructions">Read the instructions and start searching for the QR code at the required location.
+Once you have found the QR code, scan it and show your knowledge about the city of Banja Luka.
+We have also prepared two hints for you, which will associate you with the answer, but which will deprive you of points in case of use.
+Repeat the above steps, get to know Banja Luka and compete with your fellow citizens and tourists of our city.
+Good luck!!!</string>
+</resources>

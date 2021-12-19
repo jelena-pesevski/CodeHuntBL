@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/pocetna" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_baseline_trending_up_24"
+            android:title="@string/rang_lista" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/mapa_pitanja" />
+        <item
+            android:id="@+id/nav_solved"
+            android:icon="@drawable/ic_solved"
+            android:title="@string/rijesena_pitanja" />
+        <item
+            android:id="@+id/nav_error"
+            android:icon="@drawable/ic_baseline_question_answer_24"
+            android:title="@string/prijavi_gresku" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/podesavanja" />
+        <item
+            android:id="@+id/nav_instructions"
+            android:icon="@drawable/ic_baseline_text_snippet_24"
+            android:title="@string/uputstvo" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/o_nama" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_arrow_back_24"
+            android:title="@string/odjavi_se" />
+    </group>
+</menu>
